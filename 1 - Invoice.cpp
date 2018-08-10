@@ -27,17 +27,17 @@ double Invoice::getInvoiceAmount(){
 	return valorT;
 }
 
-/*void Invoice::setNumero(int numero){
-	 this.numero=numero;
+void Invoice::setNumero(int numero){
+	 this->numero=numero;
 }
 void Invoice::setQuantidade(int quantidade){
-     this.quantidade=quantidade;
+     this->quantidade=quantidade;
 }
 void Invoice::setDescricao(string descricao){
-     this.descricao=descricao;
+     this->descricao=descricao;
 }
 void Invoice::setPreco(double preco){
-     this.preco=preco;
+     this->preco=preco;
 }
 int Invoice::getNumero(){
      return numero;
@@ -45,11 +45,10 @@ int Invoice::getNumero(){
 int Invoice::getQuantidade(){
      return quantidade;
 }
-char Invoice::getDescricao(){
+string Invoice::getDescricao(){
      return descricao;
 }
 double Invoice::getPreco(){
      return preco;
-}*/
-
+}
 
