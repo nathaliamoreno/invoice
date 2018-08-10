@@ -10,16 +10,18 @@ public:
     double preco;
 
     Invoice (int numero, int quantidade, std::string descricao, double preco);
+
     double getInvoiceAmount();
 
-	/*void setNumero(int numero);
+	void setNumero(int numero);
 	void setQuantidade(int quantidade);
-	void setDescricao(string descricao);
+	void setDescricao(std::string descricao);
 	void setPreco(double preco);
+
 	int getNumero();
 	int getQuantidade();
-	char getDescricao();
-	double getPreco();*/
+	std::string getDescricao();
+	double getPreco();
 };
 
 
