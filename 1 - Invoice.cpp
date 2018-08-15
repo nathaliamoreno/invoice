@@ -51,4 +51,3 @@ string Invoice::getDescricao(){
 double Invoice::getPreco(){
      return preco;
 }
-
