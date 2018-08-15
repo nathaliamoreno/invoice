@@ -24,5 +24,4 @@ public:
 	double getPreco();
 };
 
-
 #endif // INVOICE_H_INCLUDED
